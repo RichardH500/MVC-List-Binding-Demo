@@ -47,9 +47,8 @@ public class HomeController : Controller
             return View(model);
         }
 
-        // Save to database...
-
-        return RedirectToAction("Index");
+        // show results
+        return View("Results", model);
     }
 
 

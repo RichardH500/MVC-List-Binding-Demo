@@ -17,7 +17,7 @@ namespace test.Models
 
     public class Hobby
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         public HobbyType Type { get; set; }
     }
